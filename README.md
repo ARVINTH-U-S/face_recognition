@@ -1,10 +1,10 @@
-# 🎯 Face Recognition & Tracking using KNN and YOLOv8
+# Face Recognition & Tracking using KNN and YOLOv8
 
 This project demonstrates a real-time face recognition system using the K-Nearest Neighbors (KNN) technique, combined with person tracking using YOLOv8. It enables identifying individuals from video streams and associating them with tracked body movements.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -23,7 +23,7 @@ This project demonstrates a real-time face recognition system using the K-Neares
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -41,7 +41,7 @@ pip install opencv-python numpy face_recognition ultralytics
 ```
 ---
 
-## 📸 Dataset Preparation
+## Dataset Preparation
 
 Organize your dataset in the following format:
 
@@ -59,9 +59,9 @@ knn_examples/train/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-### 🔹 1. Face Recognition (KNN)
+### 1. Face Recognition (KNN)
 
 * Loads images from dataset
 * Extracts facial encodings
@@ -70,7 +70,7 @@ knn_examples/train/
 
 ---
 
-### 🔹 2. Face Mapping with Pose Tracking
+### 2. Face Mapping with Pose Tracking
 
 * Detects faces and labels them
 * Uses YOLOv8 pose model for tracking people
@@ -79,9 +79,9 @@ knn_examples/train/
 
 ---
 
-## ▶️ Usage
+## Usage
 
-### 🟢 Run Face Recognition
+### Run Face Recognition
 
 ```bash
 python face_recognition_with_knn_technique.py
@@ -93,7 +93,7 @@ python face_recognition_with_knn_technique.py
 
 ---
 
-### 🔵 Run Face + Pose Tracking
+### Run Face + Pose Tracking
 
 ```bash
 python face_mapping_with_knn.py
